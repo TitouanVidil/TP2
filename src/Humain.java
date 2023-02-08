@@ -12,10 +12,10 @@ public abstract class Humain extends Mortel
         return nom;
     }
 
-    public void setNom(String nom)
-    {
-        this.nom = nom;
-    }
+    abstract public void setNom(String nom);
 
-    public abstract void meurt(Humain humain);
+    public void meurt()
+    {
+        System.out.println("L'Humain: "+nom+" est mort");
+    }
 }

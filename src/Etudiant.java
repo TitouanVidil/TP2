@@ -17,9 +17,4 @@ public class Etudiant extends Humain
     {
         this.note = note;
     }
-
-    public void meurt()
-    {
-       System.out.println("L'Etudiant: "+nom+" est mort");
-    }
 }

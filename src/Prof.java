@@ -13,5 +13,19 @@ public class Prof extends Humain
         this.salaire = salaire;
     }
 
+    public double getSalaire()
+    {
+        return salaire;
+    }
+
+    public void setSalaire(double salaire)
+    {
+        this.salaire = salaire;
+    }
+
+    public void setNom(String nom)
+    {
+        this.nom = nom;
+    }
 
 }
