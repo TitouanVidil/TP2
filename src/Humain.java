@@ -1,6 +1,8 @@
-public abstract class Humain extends Mortel
+public class Humain implements Mortel
 {
     protected String nom;
+
+    public Humain(){}
 
     public Humain(String nom)
     {
@@ -12,7 +14,7 @@ public abstract class Humain extends Mortel
         return nom;
     }
 
-    abstract public void setNom(String nom);
+    public void setNom(String nom){ this.nom = nom;}
 
     public void meurt()
     {

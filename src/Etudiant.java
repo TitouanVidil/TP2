@@ -17,4 +17,6 @@ public class Etudiant extends Humain
     {
         this.note = note;
     }
+
+
 }

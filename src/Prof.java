@@ -2,12 +2,14 @@ public class Prof extends Humain
 {
     protected double salaire;
 
+    public Prof(){}
+
     public Prof(String nom)
     {
         super(nom);
     }
 
-    public Prof(String nom,double saliare)
+    public Prof(String nom,double salaire)
     {
         super(nom);
         this.salaire = salaire;
@@ -23,6 +25,7 @@ public class Prof extends Humain
         this.salaire = salaire;
     }
 
+    @Override
     public void setNom(String nom)
     {
         this.nom = nom;

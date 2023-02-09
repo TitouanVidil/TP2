@@ -1,5 +1,5 @@
-public abstract class Mortel
+public interface Mortel
 {
-   public abstract void meurt(Humain humain);
+   public void meurt();
 
 }
